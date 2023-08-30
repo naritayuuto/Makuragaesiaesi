@@ -21,14 +21,14 @@ public class UIManager : MonoBehaviour
 
     [SerializeField, Tooltip("サウンドマネージャー")] SoundManager _soundManager = null;
     
-    PlayerController _player = null;
+    PlayerCalculation _player = null;
 
     //Animator _chargeAnim = null;
     // Start is called before the first frame update
 
     void Start()
     {
-        _player = FindObjectOfType<PlayerController>();
+        _player = FindObjectOfType<PlayerCalculation>();
         _clearUI.SetActive(false);
         _gameOverUI.SetActive(false);
         GameManager.Instance.UIManagerSet(this);

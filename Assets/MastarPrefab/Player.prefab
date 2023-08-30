@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 8200373144944012948}
   - component: {fileID: 8200373144944012950}
   - component: {fileID: 1585636293}
+  - component: {fileID: -8518300701532937832}
+  - component: {fileID: 7176521431135867288}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -144,17 +146,10 @@ MonoBehaviour:
   _joyStick: {fileID: 0}
   _childMoveSpeed: 10
   _adultMoveSpeed: 12
-  _autoMoveSpeed: 3
-  _toleranceDis: 0.3
   _returnPillowButton: {fileID: 0}
   _adultState: 0
-  _returnPillowInPos: 0
-  _autoAnim: 0
-  _playerMove: 0
   _returnPillowAction: 0
-  _ui: {fileID: 0}
-  _sound: {fileID: 0}
-  _collider: {fileID: 1585636293}
+  _playerCalculation: {fileID: 0}
 --- !u!70 &1585636293
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -171,3 +166,33 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.5}
   m_Size: {x: 1, y: 1.1}
   m_Direction: 0
+--- !u!114 &-8518300701532937832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8200373144944012953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb73c8af0fc61d044a9a37edb1b1e062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoAnim: 0
+--- !u!114 &7176521431135867288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8200373144944012953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d48900e8818008b46b23e248b1c91670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _toleranceDis: 0.3
+  _autoMoveSpeed: 3
+  _playerMove: 0
+  _returnPillowInPos: 0
+  _collider: {fileID: 1585636293}

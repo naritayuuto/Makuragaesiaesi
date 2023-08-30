@@ -183,8 +183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u306F\u3058\u3081\u308B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 34366fbc83cac84498b43e12752a4e7e, type: 2}
-  m_sharedMaterial: {fileID: 2740229490525859821, guid: 34366fbc83cac84498b43e12752a4e7e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9a7cb77a840c823468fd412da45418db, type: 2}
+  m_sharedMaterial: {fileID: -3755922063890014842, guid: 9a7cb77a840c823468fd412da45418db, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -318,8 +318,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u3042\u305D\u3073\u304B\u305F"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 34366fbc83cac84498b43e12752a4e7e, type: 2}
-  m_sharedMaterial: {fileID: 2740229490525859821, guid: 34366fbc83cac84498b43e12752a4e7e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9a7cb77a840c823468fd412da45418db, type: 2}
+  m_sharedMaterial: {fileID: -3755922063890014842, guid: 9a7cb77a840c823468fd412da45418db, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1364,7 +1364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1666409827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1918,7 +1918,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 2312, y: 1080}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
